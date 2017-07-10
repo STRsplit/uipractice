@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic JS Slider</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <script type="text/javascript" src="slideshow.js"></script>
+</head>
+<body>
+  <header> 
+    <div class="header-container">
+    <h1>Slideshow - 30 Minute UI</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Home</a>
+      <a href="#">Home</a>
+      <a href="#">Home</a>
+    </nav>
+    </div>
+  </header>
+  <div class="content-container">
+    <div class="slider-container">
+      <div class="slider">
+        <img class="slides" src="https://photos.smugmug.com/Aerial-view-san-francisco/i-GBJqdnJ/1/3547a148/L/DSC_7782-2-L.jpg" />
+        <img style="display: none" class="slides" src="https://photos.smugmug.com/Cityscapes/i-5JJR6wT/1/88033ae1/L/%5BGroup%200%5D-DSC_4032_DSC_4039-8%20images-L.jpg" />
+        <img style="display: none" class="slides" src="http://www.smartdestinations.com/blog/wp-content/uploads/2016/06/AT-T-Park-Home-of-the-San-Francisco-Giants-11.jpg" />
+        <img style="display: none" class="slides" src="http://www.teslanapawinetours.com/wp-content/uploads/2017/03/tesla-tours-and-transportation-napa-wine-tours-services-san-fransisco-scenic-tours-800x400.jpg" />
+        <img style="display: none" class="slides" src="https://fcda83403961100baa63-6b75d3a70c699e63772caac69eefc7e8.ssl.cf5.rackcdn.com/Article421.jpg" />
+        <div class="button-container">
+          <button id="btn-back" onClick="showImage(-1)">&#10094;</button>
+          <button id="btn-fwd" onClick="showImage(1)">&#10095;</button>
+        </div>
+      </div>
+    </div>
+      <div class="after-slider">
+        <p>California Roll</p>
+      </div>
+  </div>
+  <footer></footer>
+</body>
+</html>
